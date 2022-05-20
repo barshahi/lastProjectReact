@@ -19,7 +19,7 @@ const mapDispatchToProps = (dispatch) => {
 const Todos = (props) => {
   
   console.log("props ....",props);
-  console.log("todos is ",props.Todos);
+  //console.log("todos is ",props.Todos);
   
   const [todo, setTodo] = useState("");
   
